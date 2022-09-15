@@ -37,48 +37,33 @@ Total: $35.0
 
 public class firstAssessment {
     public static void main(String[] args) {
+        Question1 rice = new Question1();
+        Question1 beans = new Question1();
+        System.out.println(rice.food("rice",20,5,10));
+        System.out.println(beans.food("beans",10,2,30));
+        char[] name = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+        System.out.println(name[24]);
+        name[0] = '$';
 
-
-        String Product1 = "Product: "+"Rice";
-        int Qty1 =  20;
-        double price1 = 5.0;
-        int distance1 = 5;
-        double Total;
-         Total = Qty1 * price1 +distance1;
-        System.out.println(Product1 + "\n " + "Qty;" + Qty1 + "\n " +"price $" +  price1 + "\n" +"Miles: " + distance1 + "\n" +"======" + "\n" + "Total:" + Total);
-
-        String Product2 = "Product: " + "Beans";
-        int Qty2 = 10;
-        double price2 = 2.0;
-        int distance2 = 15;
-        double Total2;
-
-        Total2 = Qty2 * price2 +distance2;
-        System.out.println( Product2 + "\n " + "Qty;" + Qty2 + "\n " +"price $" +  price2 + "\n" +"Miles: " + distance2 + "\n" +"======" + "\n" + "Total:" + Total2);
-
-        char [] Name = { 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
-        System.out.println(Question2.getSecondToLastElement(Name));
-        Name [0] = '$' ;
 
         int i;
-        for(i=0;i<Name.length;i++);
-        System.out.println(Name);
+        for (i = 0; i < name.length; i++) {
+            if (name[i] != 'Y') {
+                System.out.println(name[i]);
+            }
+        }
+
+
+        int x = 20;
+        while (x <= 20){
+        if (x >= 10)
+        System.out.println(x--);}
+
+
+
+    }}
 
 
 
 
-        int[] numbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
-        int x = 0;
-        while (x >= 10);
-        x++;
-        System.out.println();
 
-
-
-
-
-
-
-
-
-}}
